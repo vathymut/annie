@@ -6,7 +6,6 @@
 # Psychological methods, 22(2), 322.
 
 #' @noRd
-#' @keywords  internal
 bf_ttest <- function(os_train, os_test, iterations = 4000) {
   samples <- BayesFactor::ttestBF(
     os_train,

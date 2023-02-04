@@ -1,10 +1,8 @@
 # Formula for standard error: https://stackoverflow.com/a/2677859/1965432
 #' @noRd
-#' @keywords  internal
 se <- function(x) sqrt(var(x) / length(x))
 
 #' @noRd
-#' @keywords  internal
 alert_from_os <- function(os_train,
                           os_test,
                           delta = 0,

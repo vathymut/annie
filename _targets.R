@@ -33,7 +33,7 @@ list(
     format = "parquet"
   ),
   tar_target(
-    name = gamma_parquet,
+    name = gamma_simulated,
     command = simulate_gamma(gamma_cfg),
     format = "parquet"
   )
