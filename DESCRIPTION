@@ -1,0 +1,21 @@
+Package: annie
+Type: Package
+Title: Empirical Experiments for Bayesian D-SOS
+Version: 0.0.9000
+Authors@R: 
+    c(person(given = "Vathy M.",
+             family = "Kamulete",
+             role = c("aut", "cre"),
+             email = "vathymut@gmail.com",
+             comment = c(ORCID = "0000-0002-4451-3743")))
+Maintainer: Vathy M. Kamulete <vathymut@gmail.com>
+Description: Run experiments for the Bayesian version of D-SOS. The Bayesian
+    approach to testing for non-negligible adverse shift can be used in
+    sequential settings where we accumulate data over time and continously
+    monitor performance over time.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
+Imports: 
+    data.table
